@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context="com.image.effect.timewarp.scan.filtertiktok.face.filter.activity.TrendingPlayerActivity">
+
+    <!--ad-->
+    <FrameLayout
+        android:id="@+id/banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" />
+
+    <!--player-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_ad_container"
+        android:layout_alignParentTop="true">
+
+        <com.potyvideo.library.AndExoPlayerView
+            android:id="@+id/andExoPlayerView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/main_background" />
+
+    </RelativeLayout>
+
+    <!--back icon-->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imv_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_back_shadow" />
+
+    <!--record button-->
+    <RelativeLayout
+        android:id="@+id/layout_record"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/banner_ad_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bg_layout_record"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingStart="24dp"
+            android:paddingBottom="4dp"
+            android:text="@string/try_this_effect"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!--credit-->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_credit"
+        android:layout_above="@id/layout_record"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_margin="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

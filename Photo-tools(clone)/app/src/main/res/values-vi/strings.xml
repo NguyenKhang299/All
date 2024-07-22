@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Image Compress</string>
+    <string name="compress_photo">Nén\nẢnh</string>
+    <string name="advance_compress">Nén\nNâng cao</string>
+    <string name="resize_compress">Thay đổi kích thước &amp;\nNén</string>
+    <string name="crop_compress">Cắt &amp;\nNén</string>
+    <string name="convert_photo_compress">Chuyển đổi định dạng ảnh</string>
+    <string name="image_resizer">Image Resizer</string>
+    <string name="by">Bởi Teras Studio</string>
+    <string name="ver">Phiên bản 1.0</string>
+    <string name="general">Chung</string>
+    <string name="others">Khác</string>
+    <string name="home">Trang chủ</string>
+    <string name="change_language">Thay đổi Ngôn ngữ</string>
+    <string name="customer_support">Hỗ trợ Khách hàng</string>
+    <string name="rate_us">Đánh giá Chúng tôi</string>
+    <string name="share_app">Chia sẻ Ứng dụng</string>
+    <string name="privacy_policy">Chính sách Bảo mật</string>
+    <string name="terms_conditions">Điều khoản &amp; Điều kiện</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--  Lựa chọn nén-->
+    <string name="selected">Đã chọn</string>
+    <string name="size">Kích thước:</string>
+    <string name="resolution">Độ phân giải:</string>
+    <string name="smail_size">Kích thước Nhỏ</string>
+    <string name="medium_size">Kích thước Trung bình</string>
+    <string name="large_size">Kích thước Lớn</string>
+    <string name="custom_file_size">Kích thước Tùy chỉnh</string>
+    <string name="descr_smail_size">Chất lượng chấp nhận được - Kích thước File Nhỏ</string>
+    <string name="descr_medium_size">Chất lượng tốt - Kích thước File Trung bình</string>
+    <string name="descr_large_size">Nén một cách thông minh với Độ phân giải Tốt nhất</string>
+    <string name="descr_custom_file_size">Tối ưu hóa độ phân giải và số lượng dựa trên kích thước file</string>
+    <string name="compress">Nén</string>
+
+    <string name="perm_denied">Vui lòng cấp quyền để tiếp tục sử dụng tính năng này.</string>
+    <string name="all_photo">Thư mục ảnh</string>
+    <string name="folder">Thư mục</string>
+    <string name="very_smail_size">Kích thước rất nhỏ</string>
+
+    <string name="descr_very_smail_size">Chất lượng thấp - Kích thước tệp rất nhỏ</string>
+    <string name="desired_file_size">Kích thước file mong muốn</string>
+    <string name="select_unit">Chọn đơn vị</string>
+    <!-- Resize ảnh-->
+    <string name="selected_photo">Ảnh đã chọn</string>
+    <string name="select_size">Chọn Kích thước</string>
+    <string name="compress_options">Tùy chọn Nén</string>
+    <string name="images">Ảnh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_compressed">Ảnh đã nén</string>
+    <string name="original">Ban đầu</string>
+    <string name="compressed">Đã nén</string>
+    <!-- Tùy chọn Nâng cao -->
+    <string name="select_quantity">Chọn chất lượng</string>
+    <string name="keep_original">Giữ Nguyên bản</string>
+    <string name="quantity">Chất lượng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_format">Chọn định dạng</string>
+    <string name="without_compress">Không Nén</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Xin chào fragment trống</string>
+
+    <!--    supvip-->
+    <string name="upgrade_to_premium">Nâng cấp lên Premium</string>
+    <string name="upgrare">Nâng cấp</string>
+    <string name="batch_edit">Chỉnh sửa hàng loạt</string>
+    <string name="advance_compression">Nén Nâng cao</string>
+    <string name="completely">Hoàn toàn Miễn phí Quảng cáo</string>
+    <string name="vip_pre">Tính năng Premium VIP</string>
+    <string name="do_you_like_our_app">Bạn thật sự muốn thoát ứng dụng ?</string>
+    <string name="give_us">Hãy đánh giá nhanh cho chúng tôi biết\n nếu bạn thích nó!</string>
+    <string name="patch_resize">Điều chỉnh Kích thước</string>
+    <string name="label_intro1">Thay đổi kích thước nhiều ảnh cùng một lúc. Chia sẻ và gửi đến mọi người</string>
+    <string name="label_intro_2">Chỉnh sửa và chia sẻ một bức ảnh</string>
+    <string name="resize_crop_rotation_zoom">Thay đổi kích thước, Cắt, Xoay, Phóng</string>
+    <string name="label_intro_3">Chuyển đổi định dạng thành nhiều loại khác nhau như: png, jpg, webp...</string>
+    <string name="noti">Bạn chỉ được chọn 1 ảnh</string>
+
+    <string name="save_at_pictures_reduceimages">Lưu tại "/Pictures/ReduceImages/"</string>
+    <string name="images_compressed">Ảnh đã nén</string>
+    <string name="crop">Cắt</string>
+    <string name="rotate">Xoay</string>
+    <string name="scale">Tỷ lệ</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="done">Xong</string>
+    <string name="next">Tiếp theo</string>
+    <string name="selecte_images">Chọn hình ảnh</string>
+    <string name="select_compression">Tùy chọn nén</string>
+
+    <string name="replace">Thay thế</string>
+    <string name="share">Chia sẻ</string>
+    <string name="allows_users_to_convert_images_from_one_format_to_another">Cho phép người dùng chuyển đổi hình ảnh từ định dạng này sang định dạng khác</string>
+    <string name="cancle">Hủy</string>
+    <string name="cancel">Hủy</string>
+    <string name="are_you_sure">Bạn chắc chắn chứ ?</string>
+    <string name="do_you_want_to_exit_without_completing_the_compression_task">Bạn có muốn thoát khi chưa hoàn thành tác vụ không ?</string>
+    <string name="exit">Thoát</string>
+
+    <string name="replace_">Thay thế?</string>
+    <string name="do_you_want_replace">Bạn có muốn thay thế không?</string>
+    <string name="replace_success">Thay thế ảnh thành công</string>
+    <string name="replace_error">Không thể thay thế ảnh</string>
+    <string name="delete_error">Xoá ảnh không thành công</string>
+    <string name="delete_success">Xoá ảnh thành công</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_">Xóa ảnh?</string>
+    <string name="do_you_want_delete_image">Bạn có muốn xóa hình ảnh?</string>
+
+</resources>

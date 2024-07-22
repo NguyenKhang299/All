@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="mTitle"
+            type="String" />
+
+        <variable
+            name="Menu"
+            type="android.view.Menu" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_toolbar"
+             app:navigationIcon="@drawable/ic_arrow_back_24"
+            app:title="@{mTitle}"
+            app:titleTextColor="@color/white" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/end_color"
+            android:src="@drawable/bg_toolbar_2" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

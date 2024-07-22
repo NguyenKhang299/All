@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context="com.image.effect.timewarp.scan.filtertiktok.face.filter.activity.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <!--app icon-->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imv_icon"
+            android:layout_width="36dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="120dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--setting button-->
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_setting"
+            android:layout_width="44dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="6dp"
+            android:alpha="0.5"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_setting"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            fontPath="fonts/Quicksand-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingTop="9dp"
+            android:paddingEnd="12dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toRightOf="@id/imv_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlHardcoded" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-30dp"
+        android:layout_above="@id/layout_bottom_bar"
+        android:layout_below="@id/toolbar" />
+
+    <include
+        android:id="@+id/layout_bottom_bar"
+        layout="@layout/layout_bottom_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_above="@id/banner_ad_container"/>
+
+</RelativeLayout>

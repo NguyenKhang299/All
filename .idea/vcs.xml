@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PhoneTrackerLocation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-base-mvvm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bboldvn-time-wrap-6b9f4809c7b7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/photo-tools" vcs="Git" />
+  </component>
+</project>

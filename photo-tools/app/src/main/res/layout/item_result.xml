@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/corner_radius_item_fd_image"
+    app:cardUseCompatPadding="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:orientation="vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="15dp">
+
+        <TextView
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="match_parent"
+            android:id="@+id/txtName"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:lines="1"
+            android:text="Name"
+            android:layout_marginBottom="5sp"
+            android:textColor="@color/color_text" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/original"
+                    android:textColor="@color/color_text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sizeBefore"
+                    style="@style/TextTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="end"
+                    android:text="@string/compressed"
+                    android:textColor="@color/color_text"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.jaygoo.widget.RangeSeekBar
+                android:id="@+id/seekOriginal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatTextView4"
+                app:rsb_gravity="center"
+                app:rsb_mode="single"
+                app:rsb_progress_default_color="@color/bg_tab_selected"
+                app:rsb_progress_drawable="@drawable/bg_button"
+                app:rsb_progress_height="10dp"
+                app:rsb_thumb_width="0dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/compressed"
+                    android:textColor="@color/color_text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/sizeAfter"
+                    style="@style/TextTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="end"
+                    android:text="@string/compressed"
+                    android:textColor="@color/color_text"
+                    android:textSize="18sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.jaygoo.widget.RangeSeekBar
+                android:id="@+id/seekCompressed"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="5sp"
+                app:rsb_gravity="center"
+                app:rsb_mode="single"
+                app:rsb_progress_default_color="@color/bg_tab_selected"
+                app:rsb_progress_drawable="@drawable/bg_button"
+                app:rsb_progress_height="10dp"
+                app:rsb_thumb_width="0dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

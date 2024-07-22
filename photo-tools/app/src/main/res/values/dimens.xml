@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ic_w">24dp</dimen>
+    <dimen name="ic_h">24dp</dimen>
+    <dimen name="height_header">85dp</dimen>
+    <dimen name="icon_button_size">24dp</dimen>
+    <dimen name="padding_icon">15dp</dimen>
+    <dimen name="corner_radius_item_image">20dp</dimen>
+    <dimen name="corner_radius_item_fd_image">10dp</dimen>
+</resources>

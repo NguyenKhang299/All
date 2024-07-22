@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-adapters:8.3.0@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fb423359ce469f0a5c3573883195c3f/transformed/databinding-adapters-8.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8fb423359ce469f0a5c3573883195c3f/transformed/databinding-adapters-8.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fb423359ce469f0a5c3573883195c3f/transformed/databinding-adapters-8.3.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-adapters/8.3.0/89c6bde0fc777fec579564830396befbeff353e4/databinding-adapters-8.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

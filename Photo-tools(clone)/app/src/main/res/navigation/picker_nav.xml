@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/picker_nav"
+    app:startDestination="@id/mainPickFragment">
+
+    <fragment
+        android:id="@+id/mainPickFragment"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.select_images.MainPickFragment"
+        android:label="MainPickFragment"
+        tools:layout="@layout/fragment_main_pick">
+        <action
+            android:id="@+id/action_mainPickFragment_to_advanceCompress"
+            app:destination="@id/advanceCompress"
+            app:enterAnim="@anim/enter_transition"
+            app:exitAnim="@anim/exit_transition"
+            app:popEnterAnim="@anim/exit_transition"
+            app:popExitAnim="@anim/enter_transition" />
+        <action
+            android:id="@+id/action_mainPickFragment_to_selectCompression"
+            app:destination="@id/selectCompression"
+            app:enterAnim="@anim/enter_transition"
+            app:exitAnim="@anim/exit_transition"
+            app:popEnterAnim="@anim/exit_transition"
+            app:popExitAnim="@anim/enter_transition" />
+
+        <action
+            android:id="@+id/action_mainPickFragment_to_imageFolderFragment"
+            app:destination="@id/imageFolderFragment"
+            app:enterAnim="@anim/enter_transition"
+            app:exitAnim="@anim/exit_transition"
+            app:popEnterAnim="@anim/exit_transition"
+            app:popExitAnim="@anim/enter_transition">
+            <argument
+                android:name="idBucket"
+                app:argType="integer" />
+            <argument
+                android:name="nameBucket"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_mainPickFragment_to_resizeFragment"
+            app:destination="@id/resizeFragment" />
+        <action
+            android:id="@+id/action_mainPickFragment_to_cropImageFragment"
+            app:destination="@id/cropImageFragment" />
+
+        <action
+            android:id="@+id/action_mainPickFragment_to_covertPhotoFragment"
+            app:destination="@id/covertPhotoFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectCompression"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.compress_images.SelectCompressionFragment"
+        android:label="Select Compression"
+        tools:layout="@layout/fragment_select_compression">
+        <action
+            android:id="@+id/action_selectCompression_to_compressingFragment"
+            app:enterAnim="@anim/enter_transition"
+            app:exitAnim="@anim/exit_transition"
+            app:popEnterAnim="@anim/exit_transition"
+            app:popExitAnim="@anim/enter_transition" />
+        <action
+            android:id="@+id/action_selectCompression_to_compressingDialogFragment"
+            app:destination="@id/compressingDialogFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/imageFolderFragment"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.select_images.ImageFolderFragment"
+        android:label="Image Folder"
+        tools:layout="@layout/fragment_image_folder">
+        <argument
+            android:name="idBucket"
+            android:defaultValue="-1"
+            app:argType="integer"
+            app:nullable="false" />
+        <argument
+            android:name="nameBucket"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/action_imageFolderFragment_to_selectCompression"
+            app:destination="@id/selectCompression" />
+        <action
+            android:id="@+id/action_imageFolderFragment_to_resizeFragment"
+            app:destination="@id/resizeFragment" />
+        <action
+            android:id="@+id/action_imageFolderFragment_to_advanceCompress"
+            app:destination="@id/advanceCompress" />
+        <action
+            android:id="@+id/action_imageFolderFragment_to_covertPhotoFragment"
+            app:destination="@id/covertPhotoFragment" />
+        <action
+            android:id="@+id/action_imageFolderFragment_to_cropImageFragment"
+            app:destination="@id/cropImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resizeFragment"
+        android:name="com.photo.imagecompressor.tools.persentation.main.fragment.resize_compress.ResizeFragment"
+        android:label="ResizeFragment"
+        tools:layout="@layout/fragment_resize">
+        <action
+            android:id="@+id/action_resizeFragment_to_compressingDialogFragment"
+            app:destination="@id/compressingDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/compareFragment"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.compare.CompareFragment"
+        android:label="fragment_compare"
+        tools:layout="@layout/fragment_compare" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.result.ResultFragment"
+        android:label="ResultFragment"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_resultFragment_to_compareFragment"
+            app:destination="@id/compareFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cropImageFragment"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.crop_compress.CropImageFragment"
+        android:label="CropImageFragment"
+        tools:layout="@layout/fragment_crop_image">
+        <action
+            android:id="@+id/action_cropImageFragment_to_selectCompression"
+            app:destination="@id/selectCompression" />
+        <action
+            android:id="@+id/action_cropImageFragment_to_compressingDialogFragment"
+            app:destination="@id/compressingDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/advanceCompress"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.advance.AdvanceCompressFragment"
+        android:label="Advance Compress"
+        tools:layout="@layout/fragment_advance_compress">
+        <action
+            android:id="@+id/action_advanceCompress_to_compressingDialogFragment"
+            app:destination="@id/compressingDialogFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/covertPhotoFragment"
+        android:name="com.photo.imagecompressor.tools.persentation.main.fragment.convert.CovertPhotoFragment"
+        android:label="CovertPhotoFragment"
+
+        tools:layout="@layout/fragment_covert_photo">
+        <action
+            android:id="@+id/action_covertPhotoFragment_to_compressingDialogFragment"
+            app:destination="@id/compressingDialogFragment" />
+    </fragment>
+    <dialog
+
+        android:id="@+id/compressingDialogFragment"
+        android:name="com.photo.imagecompressor.tools.presentation.main.fragment.compressing.CompressingDialogFragment"
+        android:label="CompressingDialogFragment"
+        tools:layout="@layout/fragment_compressing">
+        <action
+            android:id="@+id/action_compressingDialogFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </dialog>
+</navigation>

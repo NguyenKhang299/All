@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.yalantis:ucrop:2.2.8-native@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e5d8597d624535844debe24db65cdffe/transformed/jetified-ucrop-2.2.8-native/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5d8597d624535844debe24db65cdffe/transformed/jetified-ucrop-2.2.8-native/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5d8597d624535844debe24db65cdffe/transformed/jetified-ucrop-2.2.8-native/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e5d8597d624535844debe24db65cdffe/transformed/jetified-ucrop-2.2.8-native/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.yalantis/ucrop/2.2.8-native/2bf9bb171382053cd06d3f3aca91d89f6cd3c163/ucrop-2.2.8-native-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.yalantis/ucrop/2.2.8-native/a3f818a12fc3994ac595a8ce8dc8af30486b3b25/ucrop-2.2.8-native-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

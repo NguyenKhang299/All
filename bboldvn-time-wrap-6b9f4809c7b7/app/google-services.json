@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "143216731978",
+    "firebase_url": "https://timewarp-3b27d-default-rtdb.firebaseio.com",
+    "project_id": "timewarp-3b27d",
+    "storage_bucket": "timewarp-3b27d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143216731978:android:afa7db0bda5f812c7003b3",
+        "android_client_info": {
+          "package_name": "com.image.effect.timewarp.scan.filtertiktok.face.filter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143216731978-m21ed337as4nmgbdjasct7c0id45vk7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4SSc9S-bUOgd_m5B09Gv8mzL2ned1Jfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143216731978-m21ed337as4nmgbdjasct7c0id45vk7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

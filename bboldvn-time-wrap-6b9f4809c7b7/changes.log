@@ -1,0 +1,42 @@
+### 1.0
+- MVP
+
+### 1.1
+- Add trending
+
+### 1.1.1
+- Fix bug
+
+### 1.1.2
+- Sửa ad banner trending xuống dưới
+- Thêm banner ad vào Camera, Setting.
+- Fix bug proguard
+
+### 1.1.3
+- Add ad placement when showAd
+- Fix crash bugs
+
+### 1.2.0
+- Change tab titles, add bottom titles
+- Thêm full ads khi quit app
+- Add icon setting
+- Bản địa hóa: VN, Thái, Indo, Bồ đào nha, Hindi
+- Thêm push notification
+- Fix permission lib
+- Fix bug crash
+- IAP Remove Fullads trong setting. chỉ remove fullads, giữ banner
+
+### 1.2.1
+- Update base64
+
+### 1.3.0
+- Fix canShowAd
+- Fix load/show open ad, check canShowAd
+
+### 1.4.0
+- Fix Video record
+- Add Photo mode
+- Chang open ad to MAX
+
+### 1.4.1
+- Fix bug capture bitmap

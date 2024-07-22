@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".persentation.main.NavigationDrawerBody">
+
+        <TextView
+            style="@style/TextTitle"
+            android:layout_width="wrap_content"
+            android:text="@string/general" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/home"
+                    style="@style/ItemNav"
+                    android:text="@string/home"
+                    app:icon="@drawable/ic_home" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/compressPhoto"
+                    style="@style/ItemNav"
+                    android:text="@string/image_compressed"
+                    app:icon="@drawable/ic_compress_nav" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/changeLanguage"
+                    style="@style/ItemNav"
+                    android:text="@string/change_language"
+                    android:visibility="gone"
+                    app:icon="@drawable/ic_language" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            style="@style/TextTitle"
+            android:layout_width="wrap_content"
+            android:text="@string/others" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/support"
+                    style="@style/ItemNav"
+                    android:text="@string/customer_support"
+                    app:icon="@drawable/ic_support" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/rateUp"
+                    style="@style/ItemNav"
+                    android:text="@string/rate_us"
+                    app:icon="@drawable/ic_star" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/shareApp"
+                    style="@style/ItemNav"
+                    android:text="@string/share_app"
+                    app:icon="@drawable/ic_share" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/policy"
+                    style="@style/ItemNav"
+                    android:text="@string/privacy_policy"
+                    android:visibility="gone"
+                    app:icon="@drawable/ic_policy" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/termsConditions"
+                    style="@style/ItemNav"
+                    android:text="@string/terms_conditions"
+                    android:visibility="gone"
+                    app:icon="@drawable/ic_document" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

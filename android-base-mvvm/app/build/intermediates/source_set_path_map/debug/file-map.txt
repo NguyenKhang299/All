@@ -1,0 +1,81 @@
+com.creative.mvvm.app-cardview-1.0.0-0 C:\Users\Khang PC\.gradle\caches\transforms-3\003eda19abd500eb1a10849d1787e107\transformed\cardview-1.0.0\res
+com.creative.mvvm.app-jetified-firebase-messaging-23.0.8-1 C:\Users\Khang PC\.gradle\caches\transforms-3\042da6fd25e45c85e005fff7e4860172\transformed\jetified-firebase-messaging-23.0.8\res
+com.creative.mvvm.app-lifecycle-livedata-2.5.1-2 C:\Users\Khang PC\.gradle\caches\transforms-3\09b4926d0d40b56700c636b5f113d291\transformed\lifecycle-livedata-2.5.1\res
+com.creative.mvvm.app-jetified-dexter-6.2.1-3 C:\Users\Khang PC\.gradle\caches\transforms-3\15cb70ec384c9454b96d896d24b53bcb\transformed\jetified-dexter-6.2.1\res
+com.creative.mvvm.app-jetified-emoji2-1.2.0-4 C:\Users\Khang PC\.gradle\caches\transforms-3\170717c30d38dbe9db84b5dd91cb3e84\transformed\jetified-emoji2-1.2.0\res
+com.creative.mvvm.app-jetified-spectrum-0.7.1-5 C:\Users\Khang PC\.gradle\caches\transforms-3\1925499a4be949739bde95ae8444af7b\transformed\jetified-spectrum-0.7.1\res
+com.creative.mvvm.app-jetified-firebase-common-20.1.2-6 C:\Users\Khang PC\.gradle\caches\transforms-3\1a2e6f79cdf0de54d40e3cdf5955fc92\transformed\jetified-firebase-common-20.1.2\res
+com.creative.mvvm.app-navigation-runtime-ktx-2.5.2-7 C:\Users\Khang PC\.gradle\caches\transforms-3\1fddb986614398d05efaaed97fb60211\transformed\navigation-runtime-ktx-2.5.2\res
+com.creative.mvvm.app-navigation-common-2.5.2-8 C:\Users\Khang PC\.gradle\caches\transforms-3\222964c431a8e437aa76193b7cdbb33b\transformed\navigation-common-2.5.2\res
+com.creative.mvvm.app-appcompat-1.5.1-9 C:\Users\Khang PC\.gradle\caches\transforms-3\2c85704294e210861eebc78fab257fe7\transformed\appcompat-1.5.1\res
+com.creative.mvvm.app-jetified-emoji2-views-helper-1.2.0-10 C:\Users\Khang PC\.gradle\caches\transforms-3\31621ce2edd68dc99a37fc874a4f4195\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.creative.mvvm.app-jetified-lifecycle-runtime-ktx-2.5.1-11 C:\Users\Khang PC\.gradle\caches\transforms-3\31bd9c18c9d14c0ad8958a83c29afef3\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
+com.creative.mvvm.app-sqlite-2.2.0-12 C:\Users\Khang PC\.gradle\caches\transforms-3\3572a851be9302526719ff0c78d7fd34\transformed\sqlite-2.2.0\res
+com.creative.mvvm.app-sqlite-framework-2.2.0-13 C:\Users\Khang PC\.gradle\caches\transforms-3\44723306ef00d81213181d99ccbc9f1c\transformed\sqlite-framework-2.2.0\res
+com.creative.mvvm.app-slidingpanelayout-1.2.0-14 C:\Users\Khang PC\.gradle\caches\transforms-3\4623ee53ad4493673f23f3858208793e\transformed\slidingpanelayout-1.2.0\res
+com.creative.mvvm.app-jetified-savedstate-1.2.0-15 C:\Users\Khang PC\.gradle\caches\transforms-3\4996cd6911aae6194e27a0509b98bc8b\transformed\jetified-savedstate-1.2.0\res
+com.creative.mvvm.app-recyclerview-1.1.0-16 C:\Users\Khang PC\.gradle\caches\transforms-3\4a12f49c3305ec1efc2e01fb66626d49\transformed\recyclerview-1.1.0\res
+com.creative.mvvm.app-jetified-lifecycle-process-2.5.1-17 C:\Users\Khang PC\.gradle\caches\transforms-3\4b4e9127addcb644477873b368d963cd\transformed\jetified-lifecycle-process-2.5.1\res
+com.creative.mvvm.app-navigation-ui-ktx-2.5.2-18 C:\Users\Khang PC\.gradle\caches\transforms-3\4c12678b61aefeb9eab03e97056e03de\transformed\navigation-ui-ktx-2.5.2\res
+com.creative.mvvm.app-navigation-fragment-2.5.2-19 C:\Users\Khang PC\.gradle\caches\transforms-3\4cf05ad34afeffc28b34ab3c8c0d8706\transformed\navigation-fragment-2.5.2\res
+com.creative.mvvm.app-drawerlayout-1.1.1-20 C:\Users\Khang PC\.gradle\caches\transforms-3\57e3c922a62a14366e004d4abffa45eb\transformed\drawerlayout-1.1.1\res
+com.creative.mvvm.app-jetified-savedstate-ktx-1.2.0-21 C:\Users\Khang PC\.gradle\caches\transforms-3\59a3d086dfce2f79aedbaa39a0fdb341\transformed\jetified-savedstate-ktx-1.2.0\res
+com.creative.mvvm.app-jetified-play-services-ads-lite-21.2.0-22 C:\Users\Khang PC\.gradle\caches\transforms-3\5a3138c24cb8af4ef1f3f1d66ae002ab\transformed\jetified-play-services-ads-lite-21.2.0\res
+com.creative.mvvm.app-jetified-core-1.10.3-23 C:\Users\Khang PC\.gradle\caches\transforms-3\5f5e4814152660dd519ba42136779f4e\transformed\jetified-core-1.10.3\res
+com.creative.mvvm.app-jetified-core-ktx-1.8.0-24 C:\Users\Khang PC\.gradle\caches\transforms-3\607663a49eb1a1f25191a6e2d7224d3d\transformed\jetified-core-ktx-1.8.0\res
+com.creative.mvvm.app-jetified-appcompat-resources-1.5.1-25 C:\Users\Khang PC\.gradle\caches\transforms-3\6c1d16de3238fe634be965eeb7bc7a3f\transformed\jetified-appcompat-resources-1.5.1\res
+com.creative.mvvm.app-databinding-adapters-7.3.0-26 C:\Users\Khang PC\.gradle\caches\transforms-3\6f576f9c4943ee252b79ec19466338a8\transformed\databinding-adapters-7.3.0\res
+com.creative.mvvm.app-jetified-library-0.3.5-27 C:\Users\Khang PC\.gradle\caches\transforms-3\7387525a34198988e0b8da0a380da3c1\transformed\jetified-library-0.3.5\res
+com.creative.mvvm.app-media-1.0.0-28 C:\Users\Khang PC\.gradle\caches\transforms-3\7709a4367f809f749a43476e816648c3\transformed\media-1.0.0\res
+com.creative.mvvm.app-jetified-window-1.0.0-29 C:\Users\Khang PC\.gradle\caches\transforms-3\7ac7fad7749974d208a7629c3f4d79c4\transformed\jetified-window-1.0.0\res
+com.creative.mvvm.app-navigation-runtime-2.5.2-30 C:\Users\Khang PC\.gradle\caches\transforms-3\8c875de4f9407a62ae8081a0299513df\transformed\navigation-runtime-2.5.2\res
+com.creative.mvvm.app-jetified-lifecycle-service-2.4.0-31 C:\Users\Khang PC\.gradle\caches\transforms-3\8d822ab27cb8e8f91ed0190f5570957d\transformed\jetified-lifecycle-service-2.4.0\res
+com.creative.mvvm.app-constraintlayout-2.1.4-32 C:\Users\Khang PC\.gradle\caches\transforms-3\8dfedbe047508fd5298610a1a3952066\transformed\constraintlayout-2.1.4\res
+com.creative.mvvm.app-jetified-materialdatetimepicker-4.2.3-33 C:\Users\Khang PC\.gradle\caches\transforms-3\91b02551c5d7d418482726c44a3ccd3a\transformed\jetified-materialdatetimepicker-4.2.3\res
+com.creative.mvvm.app-preference-1.0.0-34 C:\Users\Khang PC\.gradle\caches\transforms-3\92034ac2f35f608cd3207d325278c53c\transformed\preference-1.0.0\res
+com.creative.mvvm.app-room-runtime-2.4.3-35 C:\Users\Khang PC\.gradle\caches\transforms-3\92cad8abb0b8705d5629573c0155cff8\transformed\room-runtime-2.4.3\res
+com.creative.mvvm.app-databinding-runtime-7.3.0-36 C:\Users\Khang PC\.gradle\caches\transforms-3\956e622bfc19e30e487b12a8e05e07d5\transformed\databinding-runtime-7.3.0\res
+com.creative.mvvm.app-jetified-play-services-basement-18.1.0-37 C:\Users\Khang PC\.gradle\caches\transforms-3\96361f8c85d4c0ad845419e0758baa75\transformed\jetified-play-services-basement-18.1.0\res
+com.creative.mvvm.app-lifecycle-viewmodel-2.5.1-38 C:\Users\Khang PC\.gradle\caches\transforms-3\9aaab87b1008b4df71f5c3b721b1c986\transformed\lifecycle-viewmodel-2.5.1\res
+com.creative.mvvm.app-fragment-1.5.2-39 C:\Users\Khang PC\.gradle\caches\transforms-3\9bfc6a78d007c13f28b2f5849aaaa891\transformed\fragment-1.5.2\res
+com.creative.mvvm.app-transition-1.4.1-40 C:\Users\Khang PC\.gradle\caches\transforms-3\9eedc414b6ea621ee25268da25c2adc7\transformed\transition-1.4.1\res
+com.creative.mvvm.app-core-1.8.0-41 C:\Users\Khang PC\.gradle\caches\transforms-3\a50d9f7474345cba645d22813c9f7964\transformed\core-1.8.0\res
+com.creative.mvvm.app-jetified-annotation-experimental-1.1.0-42 C:\Users\Khang PC\.gradle\caches\transforms-3\a52048d940b2690349156ebde570b3a6\transformed\jetified-annotation-experimental-1.1.0\res
+com.creative.mvvm.app-material-1.6.1-43 C:\Users\Khang PC\.gradle\caches\transforms-3\a89ed301e448835c5b6d2d618cc6e536\transformed\material-1.6.1\res
+com.creative.mvvm.app-jetified-lifecycle-livedata-ktx-2.5.1-44 C:\Users\Khang PC\.gradle\caches\transforms-3\aa9210f03f5976477c070e30dd69562e\transformed\jetified-lifecycle-livedata-ktx-2.5.1\res
+com.creative.mvvm.app-coordinatorlayout-1.1.0-45 C:\Users\Khang PC\.gradle\caches\transforms-3\acf2abc2cc10111abc8e4959d2b596fc\transformed\coordinatorlayout-1.1.0\res
+com.creative.mvvm.app-navigation-fragment-ktx-2.5.2-46 C:\Users\Khang PC\.gradle\caches\transforms-3\b0547d6faa78ea6346cc9b9f2b714279\transformed\navigation-fragment-ktx-2.5.2\res
+com.creative.mvvm.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-47 C:\Users\Khang PC\.gradle\caches\transforms-3\b2b3da5c672597d7e55355991c75247d\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.creative.mvvm.app-browser-1.4.0-48 C:\Users\Khang PC\.gradle\caches\transforms-3\b2c8e64983611dd45989c3da4351f3fc\transformed\browser-1.4.0\res
+com.creative.mvvm.app-jetified-fragment-ktx-1.5.2-49 C:\Users\Khang PC\.gradle\caches\transforms-3\b31760dea65aec10759efba9bfe6375b\transformed\jetified-fragment-ktx-1.5.2\res
+com.creative.mvvm.app-jetified-lifecycle-livedata-core-ktx-2.5.1-50 C:\Users\Khang PC\.gradle\caches\transforms-3\b456ab1787613c07f9b6b0f179889f0d\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\res
+com.creative.mvvm.app-room-rxjava2-2.4.3-51 C:\Users\Khang PC\.gradle\caches\transforms-3\b8359e1a848ec48a39ddab8b77e72dd6\transformed\room-rxjava2-2.4.3\res
+com.creative.mvvm.app-jetified-glide-4.12.0-52 C:\Users\Khang PC\.gradle\caches\transforms-3\b84142024676e17fa9d6d58666b6963a\transformed\jetified-glide-4.12.0\res
+com.creative.mvvm.app-jetified-viewpager2-1.0.0-53 C:\Users\Khang PC\.gradle\caches\transforms-3\b9348e97723e1926af07162723f2b065\transformed\jetified-viewpager2-1.0.0\res
+com.creative.mvvm.app-lifecycle-livedata-core-2.5.1-54 C:\Users\Khang PC\.gradle\caches\transforms-3\bc7c68a9a93327189b3f4f0f8086bfdf\transformed\lifecycle-livedata-core-2.5.1\res
+com.creative.mvvm.app-jetified-startup-runtime-1.1.1-55 C:\Users\Khang PC\.gradle\caches\transforms-3\c338740b31d516f86ec036dbdfef4772\transformed\jetified-startup-runtime-1.1.1\res
+com.creative.mvvm.app-jetified-pinlockview-2.1.0-56 C:\Users\Khang PC\.gradle\caches\transforms-3\c4403c3a99bf24e966e339114fc4dba1\transformed\jetified-pinlockview-2.1.0\res
+com.creative.mvvm.app-work-runtime-2.7.0-57 C:\Users\Khang PC\.gradle\caches\transforms-3\cc5b83145e82f2ead315003fe215f77d\transformed\work-runtime-2.7.0\res
+com.creative.mvvm.app-jetified-activity-1.5.1-58 C:\Users\Khang PC\.gradle\caches\transforms-3\cd59c69772728356baf7e6134e342aaf\transformed\jetified-activity-1.5.1\res
+com.creative.mvvm.app-navigation-ui-2.5.2-59 C:\Users\Khang PC\.gradle\caches\transforms-3\d34da3a72dc56eb285ea337363003f10\transformed\navigation-ui-2.5.2\res
+com.creative.mvvm.app-jetified-circleimageview-3.1.0-60 C:\Users\Khang PC\.gradle\caches\transforms-3\d576cf12d3d14648e4ca5403a490a41b\transformed\jetified-circleimageview-3.1.0\res
+com.creative.mvvm.app-lifecycle-runtime-2.5.1-61 C:\Users\Khang PC\.gradle\caches\transforms-3\d72af8143272049e82dea07ae137dc5f\transformed\lifecycle-runtime-2.5.1\res
+com.creative.mvvm.app-jetified-viewpagerdotsindicator-4.1.2-62 C:\Users\Khang PC\.gradle\caches\transforms-3\dcc8edd0c8908ced34bf9f4ab063111b\transformed\jetified-viewpagerdotsindicator-4.1.2\res
+com.creative.mvvm.app-jetified-play-services-ads-21.2.0-63 C:\Users\Khang PC\.gradle\caches\transforms-3\ddb60421810a85e359dcaaa99a0f99e9\transformed\jetified-play-services-ads-21.2.0\res
+com.creative.mvvm.app-jetified-preferences-helper-1.3.2-64 C:\Users\Khang PC\.gradle\caches\transforms-3\e247d85f4d90362d9795ccee35a1075f\transformed\jetified-preferences-helper-1.3.2\res
+com.creative.mvvm.app-jetified-play-services-base-18.0.1-65 C:\Users\Khang PC\.gradle\caches\transforms-3\e36cfbcd562cf5faa65857c5f0e403ca\transformed\jetified-play-services-base-18.0.1\res
+com.creative.mvvm.app-jetified-lifecycle-viewmodel-ktx-2.5.1-66 C:\Users\Khang PC\.gradle\caches\transforms-3\e72cfa6490eebcf463a715f5fb94e0b2\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\res
+com.creative.mvvm.app-navigation-common-ktx-2.5.2-67 C:\Users\Khang PC\.gradle\caches\transforms-3\e9e225b7da5b7c343575474f399f1fae\transformed\navigation-common-ktx-2.5.2\res
+com.creative.mvvm.app-jetified-activity-ktx-1.5.1-68 C:\Users\Khang PC\.gradle\caches\transforms-3\f721f014220c1181a48bdfa6fc34c31d\transformed\jetified-activity-ktx-1.5.1\res
+com.creative.mvvm.app-jetified-RoundedImageView-0.8.4-69 C:\Users\Khang PC\.gradle\caches\transforms-3\fa537cef87910318597c14c73689f155\transformed\jetified-RoundedImageView-0.8.4\res
+com.creative.mvvm.app-jetified-android-image-cropper-2.8.0-70 C:\Users\Khang PC\.gradle\caches\transforms-3\faaa0b9a7553be3436cd15d400c15eda\transformed\jetified-android-image-cropper-2.8.0\res
+com.creative.mvvm.app-res-71 D:\ProjectAndroid\android-base-mvvm\app\build\generated\crashlytics\res\debug
+com.creative.mvvm.app-google-services-72 D:\ProjectAndroid\android-base-mvvm\app\build\generated\res\google-services\debug
+com.creative.mvvm.app-pngs-73 D:\ProjectAndroid\android-base-mvvm\app\build\generated\res\pngs\debug
+com.creative.mvvm.app-resValues-74 D:\ProjectAndroid\android-base-mvvm\app\build\generated\res\resValues\debug
+com.creative.mvvm.app-rs-75 D:\ProjectAndroid\android-base-mvvm\app\build\generated\res\rs\debug
+com.creative.mvvm.app-mergeDebugResources-76 D:\ProjectAndroid\android-base-mvvm\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.creative.mvvm.app-mergeDebugResources-77 D:\ProjectAndroid\android-base-mvvm\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.creative.mvvm.app-merged_res-78 D:\ProjectAndroid\android-base-mvvm\app\build\intermediates\merged_res\debug
+com.creative.mvvm.app-debug-79 D:\ProjectAndroid\android-base-mvvm\app\src\debug\res
+com.creative.mvvm.app-main-80 D:\ProjectAndroid\android-base-mvvm\app\src\main\res
