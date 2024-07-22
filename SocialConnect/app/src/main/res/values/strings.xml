@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TestSocket</string>
+    <string name="missed_voice_call">Missed the voice call</string>
+    <string name="missed_call_video">Missed the video call</string>
+    <string name="call_back">Call Back</string>
+    <string name="click_to_call_back">Click to call back</string>
+    <string name="voice_call">Voice call</string>
+    <string name="video_call">Video call</string>
+    <string name="you_are_replying">You are replying</string>
+    <string name="answered_himself">answered himself</string>
+    <string name="are_replying">are replying</string>
+    <string name="revoked">The message has been revoked</string>
+    <string name="has_revoked_a_message">has revoked a message</string>
+    <string name="you">you</string>
+    <string name="attached_files">Attached files</string>
+    <string name="you_replied_to_a_message_that_was_removed">You replied to a message that was removed</string>
+    <string name="replied_to_a_message_that_was_removed">replied to a message that was removed</string>
+    <string name="sent_video">sent video</string>
+    <string name="sent_image">sent image</string>
+    <string name="has_sent_an_attached_file">has sent an attached file</string>
+    <string name="sent_a_conversation">sent a conversation</string>
+    <string name="tap_to_return_the_call">Tap to return the call • Calling...</string>
+    <string name="connecting_to_make_call">Connecting to make a call • Connecting...</string>
+
+</resources>

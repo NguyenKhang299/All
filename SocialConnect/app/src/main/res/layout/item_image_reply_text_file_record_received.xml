@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="java.util.ArrayList" />
+
+        <import type="com.knd.duantotnghiep.testsocket.response.UploadResponse" />
+
+        <variable
+            name="urls"
+            type="ArrayList&lt;UploadResponse&gt;" />
+
+        <variable
+            name="MessageReply"
+            type="String" />
+
+        <variable
+            name="NameUserReply"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_reply"
+
+            android:gravity="center"
+            android:text="@{NameUserReply}"
+            android:textColor="@color/text_color_note_reply"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp"
+            app:cardElevation="0dp"
+            app:setVisibility="@{MessageReply.length()!=0}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/bgr_reply"
+                android:paddingStart="15sp"
+                android:paddingTop="5dp"
+                android:paddingEnd="15sp"
+                android:paddingBottom="25sp"
+                android:text="@{MessageReply}"
+                android:textColor="@color/text_color_reply"
+                android:textSize="18sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <include
+            android:id="@+id/itemImageSent"
+            layout="@layout/item_image_received"
+            android:layout_marginTop="-20dp"
+            app:urls="@{urls}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</layout>
+
+

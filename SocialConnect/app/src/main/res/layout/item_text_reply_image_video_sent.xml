@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="java.util.ArrayList" />
+
+        <import type="android.view.View" />
+
+        <import type="com.knd.duantotnghiep.testsocket.response.UploadResponse" />
+
+
+        <variable
+            name="IsCurrentUserSent"
+            type="Boolean" />
+
+        <variable
+            name="UrlReply"
+            type="String" />
+
+        <variable
+            name="IsVideo"
+            type="Boolean" />
+
+        <variable
+            name="Message"
+            type="String" />
+
+
+        <variable
+            name="NameUserReply"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@{NameUserReply}"
+            android:textColor="@color/text_color_note_reply"
+            app:drawableStartCompat="@drawable/ic_reply"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardReply"
+            app:cardElevation="0dp">
+
+            <include
+                android:id="@+id/includeReplyImgVideo"
+                layout="@layout/item_reply_img_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:IsCurrentUserSent="@{IsCurrentUserSent}"
+                app:IsVideo="@{IsVideo}"
+                app:UrlReply="@{UrlReply}" />
+        </androidx.cardview.widget.CardView>
+
+
+        <include
+            android:id="@+id/itemMessRevoked"
+            layout="@layout/item_text_revoked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            app:isCurrentUserSent="@{IsCurrentUserSent}"
+            app:setVisibility="@{UrlReply==null}" />
+
+
+        <include
+            android:id="@+id/itemTextSent"
+            layout="@layout/item_text_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            app:message="@{Message}" />
+
+    </LinearLayout>
+
+</layout>
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout >
+
+    <data>
+
+        <variable
+            name="IsCurrentUserSent"
+            type="Boolean" />
+
+        <variable
+            name="UrlReply"
+            type="String" />
+
+        <variable
+            name="IsVideo"
+            type="Boolean" />
+
+        <variable
+            name="file"
+            type="com.knd.duantotnghiep.testsocket.response.UploadResponse" />
+
+
+        <variable
+            name="NameUserReply"
+            type="String" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_reply"
+            android:gravity="center"
+            android:text="@{NameUserReply}"
+            android:textColor="@color/text_color_note_reply" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp">
+            <include
+                android:id="@+id/includeReplyImgVideo"
+                layout="@layout/item_reply_img_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:IsCurrentUserSent="@{IsCurrentUserSent}"
+                app:IsVideo="@{IsVideo}"
+                app:UrlReply="@{UrlReply}" />
+        </androidx.cardview.widget.CardView>
+
+
+        <include
+            android:id="@+id/includeMessage"
+            layout="@layout/item_file_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            app:file="@{file}" />
+
+    </LinearLayout>
+
+</layout>
+
+

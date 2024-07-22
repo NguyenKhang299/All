@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+        <variable
+            name="IsCurrentUserSent"
+            type="Boolean" />
+
+        <variable
+            name="UrlReply"
+            type="String" />
+
+        <variable
+            name="IsVideo"
+            type="Boolean" />
+
+        <import type="android.view.View" />
+
+        <import type="com.knd.duantotnghiep.testsocket.response.UploadResponse" />
+
+        <import type="java.util.ArrayList" />
+
+        <variable
+            name="urls"
+            type="ArrayList&lt;UploadResponse&gt;" />
+
+        <variable
+            name="NameUserReply"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_reply"
+            android:gravity="center"
+            android:text="@{NameUserReply}"
+            android:textColor="@color/text_color_note_reply" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp">
+
+            <include
+                android:id="@+id/includeReplyImgVideo"
+                layout="@layout/item_reply_img_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:IsCurrentUserSent="@{IsCurrentUserSent}"
+                app:IsVideo="@{IsVideo}"
+                app:UrlReply="@{UrlReply}" />
+        </androidx.cardview.widget.CardView>
+
+
+        <include
+            android:id="@+id/includeMessage"
+            layout="@layout/item_image_sent"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            app:urls="@{urls}" />
+
+    </LinearLayout>
+
+</layout>
+
+

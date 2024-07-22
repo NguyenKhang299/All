@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rotation"
+        android:icon="@drawable/rotation"
+        android:title="Subcribe"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/subcribe"
+        android:icon="@drawable/subcribe"
+        android:title="Subcribe"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tip"
+        android:icon="@drawable/tip"
+        android:title="Tip"
+        android:visible="false"
+
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/reset1"
+        android:title="History"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/setting"
+        android:title="Setting"
+        app:showAsAction="always" />
+</menu>

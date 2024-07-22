@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_picker"
+    app:startDestination="@id/mainPickerFragment2">
+
+    <fragment
+        android:id="@+id/mainPickerFragment2"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.video_pickers.MainPickerFragment"
+        android:label="MainPickerFragment"
+        tools:layout="@layout/fragment_main_picker">
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_videoFolderFragment"
+            app:destination="@id/videoFolderFragment" />
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_reversesFragment"
+            app:destination="@id/reversesFragment" />
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_selectCompressFragment"
+            app:destination="@id/selectCompressFragment" />
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_fastForwardActivity"
+            app:destination="@id/fastForwardActivity" />
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_joinVideoFragment"
+            app:destination="@id/joinVideoFragment" />
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_extractAudioActivity"
+            app:destination="@id/extractAudioActivity" />
+        <action
+            android:id="@+id/action_mainPickerFragment2_to_cutTrimActivity"
+            app:destination="@id/cutTrimActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoFolderFragment"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.video_pickers.VideoFolderFragment"
+        android:label="VideoFolderFragment"
+        tools:layout="@layout/fragment_video_folder">
+        <action
+            android:id="@+id/action_videoFolderFragment_to_reversesFragment"
+            app:destination="@id/reversesFragment" />
+        <action
+            android:id="@+id/action_videoFolderFragment_to_selectCompressFragment"
+            app:destination="@id/selectCompressFragment" />
+        <action
+            android:id="@+id/action_videoFolderFragment_to_fastForwardActivity"
+            app:destination="@id/fastForwardActivity" />
+        <action
+            android:id="@+id/action_videoFolderFragment_to_fastForwardActivity2"
+            app:destination="@id/fastForwardActivity" />
+        <action
+            android:id="@+id/action_videoFolderFragment_to_joinVideoFragment"
+            app:destination="@id/joinVideoFragment" />
+        <action
+            android:id="@+id/action_videoFolderFragment_to_extractAudioActivity"
+            app:destination="@id/extractAudioActivity" />
+        <action
+            android:id="@+id/action_videoFolderFragment_to_cutTrimActivity"
+            app:destination="@id/cutTrimActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectCompressFragment"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.select_compress.SelectCompressFragment"
+        android:label="SelectCompressFragment"
+        tools:layout="@layout/activity_select_compress" >
+        <action
+            android:id="@+id/action_selectCompressFragment_to_processFragment"
+            app:destination="@id/processFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reversesFragment"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.reverse.ReversesFragment"
+        android:label="ReversesFragment"
+        tools:layout="@layout/activity_reverses" >
+        <action
+            android:id="@+id/action_reversesFragment_to_processFragment"
+            app:destination="@id/processFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fastForwardActivity"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.fast_forward.FastForwardFragment"
+        android:label="activity_fast_forward"
+        tools:layout="@layout/activity_fast_forward">
+        <action
+            android:id="@+id/action_fastForwardActivity_to_fastForwardOptionsFragment"
+            app:destination="@id/fastForwardOptionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fastForwardOptionsFragment"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.fast_forward.FastForwardOptionsFragment"
+        android:label="activity_fast_forward_options"
+        tools:layout="@layout/activity_fast_forward_options" >
+        <action
+            android:id="@+id/action_fastForwardOptionsFragment_to_processFragment"
+            app:destination="@id/processFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinVideoFragment"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.join_video.JoinVideoFragment"
+        android:label="activity_join_video"
+        tools:layout="@layout/activity_join_video" >
+        <action
+            android:id="@+id/action_joinVideoFragment_to_processFragment"
+            app:destination="@id/processFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/extractAudioActivity"
+        tools:layout="@layout/activity_extract_audio"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.extract_audio.ExtractAudioFragment"
+        android:label="ExtractAudioActivity" >
+        <action
+            android:id="@+id/action_extractAudioActivity_to_processFragment"
+            app:destination="@id/processFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cutTrimActivity"
+        tools:layout="@layout/activity_cut_trim"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.cut_trim.CutTrimFragment"
+        android:label="CutTrimActivity" >
+        <action
+            android:id="@+id/action_cutTrimActivity_to_processFragment"
+            app:destination="@id/processFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/processFragment"
+        tools:layout="@layout/activity_process"
+        android:name="com.video.mini.tools.zip.compress.convert.simple.tiny.ui.process.ProcessFragment"
+        android:label="ProcessFragment" />
+</navigation>

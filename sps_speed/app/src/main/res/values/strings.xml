@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GPS</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Analog</string>
+    <string name="title_dashboard">Kỹ thuật số</string>
+    <string name="title_notifications">Bản đồ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wraning_limit">Cảnh báo tốc độ giới hạn tối đa</string>
+    <string name="unit_speed">Đơn vị tốc độ</string>
+    <string name="max_speed_analog">Tốc độ tối đa của đồng hồ analog</string>
+    <string name="show_speed_in_noti">Hiển thi tốc độ trong Notification</string>
+    <string name="track_on_map">Bật theo dõi trên bản đồ</string>
+    <string name="speed_alarm">Báo động tốc độ</string>
+    <string name="general_settings">CÀI ĐẶT CHUNG</string>
+    <string name="color_display">Màu hiển thị</string>
+    <string name="clock_display">Hiển thị đồng hồ</string>
+    <string name="show_btn_reset">Hiển thị nút đặt lại</string>
+    <string name="reset_distance">Đặt lại công tơ mét</string>
+    <string name="let_go">Đi nào</string>
+    <string name="ng_h_o_qu_ng_ng">đồng hồ đo quãng đường</string>
+    <string name="average_speed">Avg Speed</string>
+    <string name="distance">Distance</string>
+    <string name="max_speed">Max Speed</string>
+    <string name="mess_dialog">Granting &lt;b>Location Permission&lt;/b> at all times allows us to track your speed &lt;br>
+This app collects location data in the background to enable&lt;br>
+- Track your trips&lt;br>
+- Measure real-time velocity&lt;br>
+- Calculate average speed&lt;br>
+- Display your speed in notification bar</string>
+    <string name="title_sup">GPS Odometer &amp; Speedometer</string>
+    <string name="mess_sup">Accurately measure distance &amp; provide overspeed warning, accompanying you every step of the way</string>
+    <string name="title_sup_2">What GPS Odometer &amp; Speedometer\nPremium brings you</string>
+    <string name="title_buy_1">Get Your 3-Day Free</string>
+    <string name="title_buy_2">3-Day Free Trial</string>
+    <string name="title_buy_3">Lifetime</string>
+    <string name="mess_buy">Then</string>
+    <string name="mess_buy_3">Never miss out on new updates</string>
+    <string name="billing_end">You can cancel at anytime on Google Play.</string>
+    <string name="billing_starts">Billing starts at the end of the 3-day free trial </string>
+    <string name="start_free_trial">Start free trial</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="please_wait_for_a_moment_we_are_calculating_your_trip_including">Please wait for a moment. We are calculating your trip, including:</string>
+    <string name="distance_n_average_speed_n_max_speed_n">.Distance\n .Average Speed\n .Max Speed\n</string>
+
+</resources>

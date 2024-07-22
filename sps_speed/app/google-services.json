@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491378888809",
+    "project_id": "gps-speedometer-odometer-pro",
+    "storage_bucket": "gps-speedometer-odometer-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491378888809:android:9ec6e929a97cc46bdbd2f8",
+        "android_client_info": {
+          "package_name": "com.gps.speedometer.odometer.gpsspeedtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491378888809-jmj8n0i11qgpsj97g2u4fdpfbo6oprp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH46QMWtIumBdRr5txfEhVdyn0JyvUgwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491378888809-jmj8n0i11qgpsj97g2u4fdpfbo6oprp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

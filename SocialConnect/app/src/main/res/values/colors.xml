@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bgr_mess_call_voice">#f1f1f1</color>
+    <color name="blue">#2196F3</color>
+    <color name="reject">#E91E1E</color>
+    <color name="answer">#14CA1B</color>
+    <color name="bgr_img_mess_call_voice">#a2a2a2</color>
+    <color name="bgr_layout_record">#86C8C3C3</color>
+    <color name="bgr_btn_item_mess">#fbfbfb</color>
+    <color name="text_color_note_reply">#968F8F</color>
+    <color name="bgr_reply">#34C8C3C3</color>
+    <color name="text_color_reply">#8D8787</color>
+</resources>

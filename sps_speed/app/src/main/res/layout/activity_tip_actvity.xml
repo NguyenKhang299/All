@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BckGroundTip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="ODOMETER"
+        android:id="@+id/mToolBar"
+       />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn1"
+        style="@style/ButtonTipNight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="5dp"
+        android:autoLink="all"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
+        android:text="Why are Odometers so Important?"
+        app:cornerRadius="180dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn2"
+        style="@style/ButtonTipDrak"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40dp"
+
+        android:layout_weight="0.7"
+        android:autoLink="all"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
+        android:text="Odometer Reading – What is it &amp; How to check it?"
+        app:cornerRadius="180dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn3"
+        style="@style/ButtonTipNight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+
+        android:layout_marginEnd="5dp"
+        android:layout_weight="0.7"
+        android:autoLink="all"
+        android:text="Reduce and Enforce Speed Limits"
+        app:cornerRadius="180dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="ADS" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn4"
+        style="@style/ButtonTipDrak"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_weight="0.7"
+        android:autoLink="all"
+        android:linksClickable="false"
+        android:selectAllOnFocus="false"
+        android:text="How to Stop Speeding"
+        app:cornerRadius="180dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="10">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartTrip"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_weight="5"
+            android:background="@drawable/background_button_hori"
+            android:text="Start Trip"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMoreTip"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:background="@drawable/background_button1"
+            android:text="More Tips"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:backgroundTint="@null"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+</LinearLayout>

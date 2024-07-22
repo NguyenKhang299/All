@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Retention Recovery</string>
+    <string name="scan_image">Scan Image</string>
+    <string name="scan_video">Scan Video</string>
+    <string name="scan_audio">Scan Audio</string>
+    <string name="scan_document">Scan File &amp; Document</string>
+    <string name="all">All</string>
+    <string name="images">Image\'s</string>
+    <string name="videos">Video\'s</string>
+    <string name="audios">Audio\'s</string>
+    <string name="documents"> File &amp; Document\'s</string>
+    <string name="apk">Apk\'s</string>
+    <string name="unnecessary_file_clea">Unnecessary file clear</string>
+    <string name="clean_now">Clean Now</string>
+    <string name="duplicate_file_scan">Duplicate File Scan</string>
+    <string name="description_duplicate">Scan your device for duplicate files based.</string>
+    <string name="restore_images">Restore Image\'s</string>
+    <string name="images_found">Images Found</string>
+    <string name="click_to_scan_new_images">Click to scan new image\'s</string>
+    <string name="click_to_scan_new_videos">Click to scan new video\'s</string>
+    <string name="click_to_scan_new_audios">Click to scan new audio\'s</string>
+    <string name="click_to_scan_new_documents">Click to scan new file &amp; document\'s</string>
+
+    <string name="restore_video">Restore video</string>
+    <string name="restore_audio">Restore audio</string>
+    <string name="restore_document">Restore File &amp; Document</string>
+    <string name="videos_found">Video\'s found</string>
+    <string name="audio_found">Audio\'s found</string>
+    <string name="documents_found">File\'s &amp; Document\'s found</string>
+    <string name="no_data">No data</string>
+    <string name="sort_by_name">Sorting by Name</string>
+    <string name="sort_by_date">Sorting by Date</string>
+    <string name="sort_by_size">Sorting by Size</string>
+    <string name="files_apk">Files apk</string>
+    <string name="files_large">Files large</string>
+    <string name="temporary_files">Temporary files</string>
+    <string name="junk_files">Junk files</string>
+    <string name="press_to_start_scan">Tap to start scan.</string>
+    <string name="scan_will_take_a_few_seconds">The scan will take a few seconds.</string>
+    <string name="files_recovering">Files Recovering...</string>
+    <string name="files_cleaning">Files Cleaning...</string>
+    <string name="files_deleting">Files Deleting...</string>
+    <string name="restore">Restore</string>
+    <string name="clean_files">Clean files</string>
+
+    <string name="delete_duplicate_media_title">Delete Duplicate Media</string>
+    <string name="delete_duplicate_media_body">This operation will delete all duplicate media files selected. Please confirm to proceed with the deletion or cancel to abort.</string>
+    <string name="set_and_items">Set %1$d | %2$d Item</string>
+    <string name="folder_media_info">%1$s | %2$d Item</string>
+
+    <string name="files_duplicated">Files Duplicated</string>
+
+    <string name="items_selected">%1$d selected</string>
+    <string name="delete_files_recovery_saved_title">Delete Files Restore Saved</string>
+    <string name="delete_files_recovery_saved_body">This operation will delete all duplicate media files selected. Please confirm to proceed with the deletion or cancel to abort.</string>
+
+    <string name="storage_access_permission_title">Storage Access Permission Needed</string>
+    <string name="storage_access_permission_body_highersdk30">This app requires access to manage all files on your device to perform tasks such as scanning and cleaning. Please grant the permission.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="cancel">Cancel</string>
+    <string name="storage_access_permission_body_lowersdk30">This app requires access to read and write files on your device to perform tasks such as scanning and cleaning. Please grant the permission.</string>
+    <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="path">Path</string>
+    <string name="size">Size</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="re_scan">Re-scan</string>
+    <string name="show_all">Show all</string>
+
+</resources>
