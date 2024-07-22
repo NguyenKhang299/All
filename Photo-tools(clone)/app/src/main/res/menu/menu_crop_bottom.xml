@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/crop"
+        android:icon="@drawable/ic_crop"
+        android:title="@string/crop" />
+    <item
+        android:id="@+id/rotate"
+        android:icon="@drawable/ic_rote"
+        android:title="@string/rotate" />
+    <item
+        android:id="@+id/scale"
+        android:icon="@drawable/ic_scale"
+        android:title="@string/scale" />
+
+</menu>

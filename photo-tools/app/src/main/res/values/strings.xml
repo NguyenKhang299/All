@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Image Resizer</string>
+    <string name="compress_photo">Compress Photo</string>
+    <string name="advance_compress">Advance Compress</string>
+    <string name="resize_compress">Resize + Compress</string>
+    <string name="crop_compress">Crop + Compress</string>
+    <string name="convert_photo_compress">Convert Photo Format</string>
+    <string name="image_resizer">Image Resizer</string>
+    <string name="by">By Teras Studio</string>
+    <string name="ver">Version 1.0</string>
+    <string name="general">General</string>
+    <string name="others">Others</string>
+    <string name="home">Home</string>
+    <string name="change_language">Change Language</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--  Select compression-->
+    <string name="selected">Selected:</string>
+    <string name="size">Size:</string>
+    <string name="resolution">Resolution:</string>
+    <string name="smail_size">Smail Size</string>
+    <string name="medium_size">Medium Size</string>
+    <string name="large_size">Large Size</string>
+    <string name="custom_file_size">Custom File Size</string>
+    <string name="descr_smail_size">Acceptable Quantity - Smail File Size</string>
+    <string name="descr_medium_size">Good Quantity - Medium File Size</string>
+    <string name="descr_large_size">Intelligently Compress with Best Resolution</string>
+    <string name="descr_custom_file_size">Optimises resolution and quantity based on files size</string>
+    <string name="compress">Compress</string>
+
+    <string name="perm_denied">Please grant permission to continue using this feature.</string>
+    <string name="all_photo">All Photo</string>
+    <string name="folder">Folder</string>
+
+    <string name="desired_file_size">Desired file size</string>
+    <string name="select_unit">Select unit</string>
+    <!-- Resize image-->
+    <string name="selected_photo">Selected Photos</string>
+    <string name="select_size">Select Size</string>
+    <string name="compress_options">Compress Options</string>
+    <string name="images">Images</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_compressed">Image(s) compressed</string>
+    <string name="original">Original</string>
+    <string name="compressed">Compressed</string>
+    <!-- Advance options -->
+    <string name="select_quantity">Select Quantity</string>
+    <string name="keep_original">Keep Original</string>
+    <string name="quantity">Quantity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_format">Select format</string>
+    <string name="without_compress">Without Compress</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    supvip-->
+    <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <string name="upgrare">Upgrade</string>
+    <string name="batch_edit">Batch Edit</string>
+    <string name="advance_compression">Advance Compression</string>
+    <string name="completely">Completely Ad Free</string>
+    <string name="vip_pre">VIP Premium Features</string>
+
+    <string name="do_you_like_our_app">Do you like our app?</string>
+    <string name="give_us">Give us a quick rating so we know \n if you like it!</string>
+</resources>

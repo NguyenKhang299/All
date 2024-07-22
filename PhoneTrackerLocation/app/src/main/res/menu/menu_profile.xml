@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menuEdit"
+        android:icon="@drawable/ic_edit_24"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item
+        android:visible="false"
+        android:id="@+id/menuCancel"
+        android:icon="@drawable/ic_x"
+        android:title="Edit"
+        app:showAsAction="always" />
+    <item
+        android:visible="false"
+        android:id="@+id/menuSave"
+        android:icon="@drawable/ic_check_24"
+        android:title="Save"
+        app:showAsAction="always" />
+</menu>

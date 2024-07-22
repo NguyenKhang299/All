@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+        <variable
+            name="SelectCompressionFragmentEvent"
+            type="com.photo.imagecompressor.tools.presentation.main.fragment.compress_images.SelectCompressionFragmentEvent" />
+
+        <variable
+            name="OptionSelected"
+            type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+        <variable
+            name="MediumSize"
+            type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+        <variable
+            name="SmailSize"
+            type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+        <variable
+            name="VerySmallSize"
+            type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+        <variable
+            name="LagerSize"
+            type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+
+        <variable
+            name="CustomFile"
+            type="com.photo.imagecompressor.tools.action.CompressionQuantity" />
+
+        <variable
+            name="Selected"
+            type="Integer" />
+
+        <variable
+            name="SizeImage"
+            type="String" />
+
+        <variable
+            name="Resolution"
+            type="String" />
+
+        <variable
+            name="ResolutionVerySmail"
+            type="String" />
+
+        <variable
+            name="ResolutionSmail"
+            type="String" />
+
+        <variable
+            name="ResolutionMedium"
+            type="String" />
+
+        <variable
+            name="ResolutionLarge"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main">
+
+        <include
+            android:id="@+id/includeToolbar"
+            layout="@layout/layout_tool_bar"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/linearLayoutCompat"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="63dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/includeToolbar"
+            tools:context=".persentation.main.fragment.compress_images.SelectCompressionFragment">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:padding="10dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rcyImage"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.7"
+                        app:riv_corner_radius="@dimen/corner_radius_item_fd_image"
+                        tools:listitem="@layout/item_image_selection_compress" />
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingStart="10dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/rcyImage"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/rcyImage"
+                        app:layout_constraintTop_toTopOf="@+id/rcyImage">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="@string/selected" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/TextTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:maxLines="1"
+                            android:text="@{String.valueOf(Selected)}" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:autoSizeMinTextSize="1sp"
+                            android:autoSizeTextType="uniform"
+                            android:maxLines="1" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/TextTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="@{Resolution}" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="@string/size" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            style="@style/TextTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="@{SizeImage}" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_view_child"
+                android:onClick="@{()->SelectCompressionFragmentEvent.onClickVerySmailSizeOption()}"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                app:compareOptionSelected="@{OptionSelected}"
+                app:compressionQuantity="@{VerySmallSize}">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/very_smail_size"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/descr_very_smail_size" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@{ResolutionVerySmail}" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                compareOptionSelected="@{OptionSelected}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_view_child"
+
+                android:onClick="@{()->SelectCompressionFragmentEvent.onClickSmailSizeOption()}"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                app:compressionQuantity="@{SmailSize}">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/smail_size"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/descr_smail_size" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@{ResolutionSmail}" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                compareOptionSelected="@{OptionSelected}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:background="@drawable/bg_view_child"
+                android:onClick="@{()->SelectCompressionFragmentEvent.onClickMediumSizeOption()}"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                app:compressionQuantity="@{MediumSize}">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/medium_size"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/descr_medium_size" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text='@{ResolutionMedium}' />
+            </LinearLayout>
+
+            <LinearLayout
+                compareOptionSelected="@{OptionSelected}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_view_child"
+
+                android:onClick="@{()->SelectCompressionFragmentEvent.onClickLagerSizeOption()}"
+                android:orientation="vertical"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="5dp"
+                app:compressionQuantity="@{LagerSize}">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/TextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/large_size"
+                    android:textSize="18sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/descr_large_size" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text='@{ResolutionLarge}' />
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <include
+             layout="@layout/layout_btn_compress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:onClick="@{()->SelectCompressionFragmentEvent.onClickCompress()}"
+            app:layout_constraintBottom_toTopOf="@+id/bannerAds"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/bannerAds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/startCreateAccountFragment">
+
+    <fragment
+        android:id="@+id/confirmNameFragment"
+        android:name="com.knd.duantotnghiep.phonetrackerlocation.ui.account.signUp.name.ConfirmNameFragment"
+        android:label=""
+        tools:layout="@layout/fragment_confirm_name">
+        <action
+            android:id="@+id/action_confirmNameFragment_to_confirmSexFragment"
+            app:destination="@id/confirmSexFragment"
+            app:enterAnim="@anim/slide_in_anim"
+            app:exitAnim="@anim/slide_out_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmOTPFragment"
+        android:name="com.knd.duantotnghiep.phonetrackerlocation.ui.account.signUp.otp.ConfirmOTPFragment"
+        android:label=""
+        tools:layout="@layout/fragment_confirm_otp" />
+    <fragment
+        android:id="@+id/confirmSexFragment"
+        android:name="com.knd.duantotnghiep.phonetrackerlocation.ui.account.signUp.sex.ConfirmSexFragment"
+        android:label=""
+        tools:layout="@layout/fragment_confirm_sex">
+        <action
+            android:id="@+id/action_confirmSexFragment_to_confirmPhoneNumberFragment"
+            app:destination="@id/confirmPhoneNumberFragment"
+            app:enterAnim="@anim/slide_in_anim"
+            app:exitAnim="@anim/slide_out_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/startCreateAccountFragment"
+        android:name="com.knd.duantotnghiep.phonetrackerlocation.ui.account.signUp.start.StartCreateAccountFragment"
+        android:label=""
+        tools:layout="@layout/fragment_start_create_account">
+        <action
+            android:id="@+id/action_startCreateAccountFragment_to_confirmNameFragment"
+            app:destination="@id/confirmNameFragment"
+            app:enterAnim="@anim/slide_in_anim"
+            app:exitAnim="@anim/slide_out_anim" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/confirmPhoneNumberFragment"
+        android:name="com.knd.duantotnghiep.phonetrackerlocation.ui.account.signUp.phoneNumber.ConfirmPhoneNumberFragment"
+        android:label=""
+        tools:layout="@layout/fragment__confirm_phone_number">
+        <action
+            android:id="@+id/action_confirmPhoneNumberFragment_to_confirmOTPFragment"
+            app:destination="@id/confirmOTPFragment"
+            app:enterAnim="@anim/slide_in_anim"
+            app:exitAnim="@anim/slide_out_anim" />
+    </fragment>
+</navigation>

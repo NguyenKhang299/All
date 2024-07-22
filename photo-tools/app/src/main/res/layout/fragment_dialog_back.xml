@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="PositionSelected"
+            type="Integer" />
+
+        <variable
+            name="DialogBackFragmentEvent"
+            type="com.photo.image.picture.tools.compressor.persentation.DialogBackFragmentEvent" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coner_top"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="100dp"
+                    android:layout_height="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/bg_button"
+                    app:layout_constraintBottom_toTopOf="@+id/nativeAds"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/TextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/do_you_like_our_app"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    style="@style/TextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="15dp"
+
+                    android:autoSizeTextType="uniform"
+                    android:lines="2"
+                    android:text="@string/give_us"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="@{()->DialogBackFragmentEvent.onClickStar(0)}"
+                        android:src="@{PositionSelected>=0?@drawable/ic_star_1:@drawable/ic_star_1}"
+                        android:tint="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:onClick="@{()->DialogBackFragmentEvent.onClickStar(0)}"
+                        android:src="@{PositionSelected>=0?@drawable/ic_star_1:@drawable/ic_star_1}"
+                        android:tint="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:onClick="@{()->DialogBackFragmentEvent.onClickStar(0)}"
+                        android:src="@{PositionSelected>=0?@drawable/ic_star_1:@drawable/ic_star_1}"
+                        android:tint="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:onClick="@{()->DialogBackFragmentEvent.onClickStar(0)}"
+                        android:src="@{PositionSelected>=0?@drawable/ic_star_1:@drawable/ic_star_1}"
+                        android:tint="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:onClick="@{()->DialogBackFragmentEvent.onClickStar(0)}"
+                        android:src="@{PositionSelected>=0?@drawable/ic_star_1:@drawable/ic_star_1}"
+                        android:tint="@color/black" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <FrameLayout
+                    android:id="@+id/nativeAds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toTopOf="@+id/btnExit" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/btnExit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingVertical="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintWidth_percent="0.8">
+
+                    <TextView
+                        android:id="@+id/appCompatButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Exit"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

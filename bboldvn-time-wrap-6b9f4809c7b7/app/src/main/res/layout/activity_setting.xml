@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.image.effect.timewarp.scan.filtertiktok.face.filter.activity.SettingActivity">
+
+    <FrameLayout
+        android:id="@+id/banner_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_ad_container"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="12dp" />
+
+        <include
+            android:id="@+id/sett_remove_ads"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <include
+            android:id="@+id/sett_language"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <include
+            android:id="@+id/sett_share_app"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <include
+            android:id="@+id/sett_rate_app"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <include
+            android:id="@+id/sett_policy"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <include
+            android:id="@+id/sett_more_app"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <include
+            android:id="@+id/sett_about"
+            layout="@layout/item_setting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

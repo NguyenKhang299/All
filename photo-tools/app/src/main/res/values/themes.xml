@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PhotoTools" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="mIcon">
+        <item name="android:layout_width">@dimen/ic_w</item>
+        <item name="android:layout_height">@dimen/ic_h</item>
+    </style>
+
+    <style name="TextActionBar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="mToolBar">
+        <item name="titleTextAppearance">@style/TextActionBar</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="navigationIcon">@drawable/ic_back</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+
+    <style name="TextTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:lines">1</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Theme.PhotoTools" parent="Base.Theme.PhotoTools" />
+</resources>

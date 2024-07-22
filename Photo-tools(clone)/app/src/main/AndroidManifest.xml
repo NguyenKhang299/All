@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Devices running Android 12L (API level 32) or lower -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" /> <!-- Devices running Android 13 (API level 33) or higher -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!--
+ To handle the reselection within the app on devices running Android 14
+         or higher if your app targets Android 14 (API level 34) or higher.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:forceDarkAllowed="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhotoTools"
+        tools:targetApi="tiramisu">
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
+        <activity
+            android:name=".presentation.ShowFailedActivity"
+            android:exported="false"
+            android:localeConfig="@xml/locales_config"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.photo.imagecompressor.tools.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".presentation.splash.SplashActivity"
+            android:exported="true"
+            android:localeConfig="@xml/locales_config"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.main.fragment.select_images.MainPickImageActivity"
+            android:exported="false"
+            android:localeConfig="@xml/locales_config"
+            android:screenOrientation="portrait" />
+        <activity
+
+            android:name=".presentation.main.MainActivity"
+            android:localeConfig="@xml/locales_config"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="TextAspectRatio"
+            type="String" />
+
+        <variable
+            name="CropSelected"
+            type="Boolean" />
+
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/black"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:text="@{TextAspectRatio}"
+            android:drawablePadding="5sp"
+            android:textColor="@color/gray_400"
+            android:textSize="15sp"
+            app:cropSelected="@{CropSelected}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

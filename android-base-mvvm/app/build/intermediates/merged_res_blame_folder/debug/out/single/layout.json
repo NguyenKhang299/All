@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/layout_note_photo.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_note_photo.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/nav_header_drawer.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/nav_header_drawer.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/item_todo_note.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/item_todo_note.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/update_note_fragment.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/update_note_fragment.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/layout_note_content.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_note_content.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/notes_fragment.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/notes_fragment.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/layout_button_edit.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_button_edit.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/activity_launcher.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/activity_launcher.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-mergeDebugResources-77:/layout/layout_x_toolbar.xml",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_x_toolbar.xml"
+    }
+]

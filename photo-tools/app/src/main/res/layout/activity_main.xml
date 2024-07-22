@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.photo.image.picture.tools.compressor.action.ActionImage" />
+
+        <variable
+            name="Event"
+            type="com.photo.image.picture.tools.compressor.persentation.main.MainViewModel.MainFragmentEvent" />
+    </data>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/bg"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/mToolBar"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_menu"
+                app:title="@string/image_resizer"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                style="@style/MyCardOption"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="15sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/compressPhoto"
+                    style="@style/ChildCardOption"
+
+                    android:onClick="@{()->Event.clickActionCompress(ActionImage.COMPRESS_PHOTO)}">
+
+                    <ImageView
+                        style="@style/ImageInCardOption"
+                        android:src="@drawable/ic_compress"
+                        app:layout_constraintBottom_toTopOf="@+id/textView1"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        style="@style/TextTitle"
+                        android:text="@string/compress_photo"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                style="@style/MyCardOption"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="15sp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/advanceCompress"
+                    style="@style/ChildCardOption"
+                    android:onClick="@{()->Event.clickActionCompress(ActionImage.ADVANCE_COMPRESS)}">
+
+                    <ImageView
+                        style="@style/ImageInCardOption"
+                        android:src="@drawable/ic_advance_compress"
+                        app:layout_constraintBottom_toTopOf="@+id/textView2"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        style="@style/TextTitle"
+                        android:text="@string/advance_compress"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                style="@style/MyCardOption"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="15sp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/resizeCompress"
+                    style="@style/ChildCardOption"
+                    android:onClick="@{()->Event.clickActionCompress(ActionImage.RESIZE_COMPRESS)}">
+
+                    <ImageView
+                        style="@style/ImageInCardOption"
+
+                        android:src="@drawable/ic_resize_compress"
+                        app:layout_constraintBottom_toTopOf="@+id/textView3"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/TextTitle"
+                        android:text="@string/resize_compress"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                style="@style/MyCardOption"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cropCompress"
+                    style="@style/ChildCardOption"
+
+                    android:onClick="@{()->Event.clickActionCompress(ActionImage.CROP_COMPRESS)}">
+
+                    <ImageView
+                        style="@style/ImageInCardOption"
+                        android:src="@drawable/ic_crop_compress"
+                        app:layout_constraintBottom_toTopOf="@+id/textView4"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        style="@style/TextTitle"
+                        android:text="@string/crop_compress"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingHorizontal="15sp"
+                app:cardCornerRadius="20dp"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintEnd_toEndOf="@+id/cardView3"
+                app:layout_constraintStart_toStartOf="@+id/cardView2"
+                app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/convertPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:foreground="?attr/actionBarItemBackground"
+                    android:onClick="@{()->Event.clickActionCompress(ActionImage.CONVERT_PHOTO)}"
+                    android:padding="18dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/ic_convert"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintDimensionRatio="1:1"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.2" />
+
+                    <TextView
+                        style="@style/TextTitle"
+                        android:text="@string/convert_photo_compress"
+                        android:textSize="18dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                        app:layout_constraintStart_toEndOf="@+id/imageView"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        style="@style/mIcon"
+                        android:src="@drawable/ic_arrow_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <FrameLayout
+                android:id="@+id/bannerAds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="false"
+            app:drawerLayoutCornerSize="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/header"
+                    layout="@layout/header" />
+
+                <fragment
+                    android:id="@+id/navBody"
+                    android:name="com.photo.image.picture.tools.compressor.persentation.main.NavigationDrawerBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:layout="@layout/body_navigation" />
+            </LinearLayout>
+
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.creative.mvvm.app-mergeDebugResources-76:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Khang PC\\.gradle\\caches\\transforms-3\\92034ac2f35f608cd3207d325278c53c\\transformed\\preference-1.0.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,127",
+                        "endColumns": "71,64",
+                        "endOffsets": "122,187"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_fade_in_launch.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/fade_in_launch.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_bg_circle_black_transparent.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/bg_circle_black_transparent.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_item_todo_note.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/item_todo_note.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-xxhdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-xxhdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-xhdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-xhdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-hdpi_round_delete_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-hdpi/round_delete_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-mdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-mdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_scale_in_out_infinite.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/scale_in_out_infinite.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_outline_clear_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/outline_clear_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-hdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-hdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_round_settings_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/round_settings_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_shake_anim.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/shake_anim.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_activity_launcher.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/activity_launcher.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/xml_remote_config_default.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/xml/remote_config_default.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_layout_note_photo.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_note_photo.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-xhdpi_round_delete_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-xhdpi/round_delete_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/menu_activity_launcher_drawer.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/menu/activity_launcher_drawer.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_outline_add_photo_alternate_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/outline_add_photo_alternate_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_round_send_to_mobile_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/round_send_to_mobile_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_layout_x_toolbar.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_x_toolbar.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_bg_white_corner.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/bg_white_corner.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/navigation_nav_graph.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_fade_in_anim.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/fade_in_anim.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_layout_button_edit.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_button_edit.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_zoom_in_out.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/zoom_in_out.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_round_done_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/round_done_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/xml_file_paths.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-xxxhdpi_baseline_arrow_back_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-xxxhdpi/baseline_arrow_back_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_round_border_color_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/round_border_color_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_layout_note_content.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/layout_note_content.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_round_menu_open_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/round_menu_open_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_notes_fragment.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/notes_fragment.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_update_note_fragment.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/update_note_fragment.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-xxhdpi_round_delete_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-xxhdpi/round_delete_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_action_bar_gradient.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/action_bar_gradient.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/font_pacifico_regular.otf.flat",
+        "source": "com.creative.mvvm.app-main-80:/font/pacifico_regular.otf"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_round_post_add_24.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/round_post_add_24.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-xxxhdpi_round_delete_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-xxxhdpi/round_delete_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_fade_out_anim.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/fade_out_anim.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/layout_nav_header_drawer.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/layout/nav_header_drawer.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable-mdpi_round_delete_white_24.png.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable-mdpi/round_delete_white_24.png"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/drawable_bg_round_corner.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/drawable/bg_round_corner.xml"
+    },
+    {
+        "merged": "com.creative.mvvm.app-merged_res-78:/anim_red_dot_animation.xml.flat",
+        "source": "com.creative.mvvm.app-main-80:/anim/red_dot_animation.xml"
+    }
+]

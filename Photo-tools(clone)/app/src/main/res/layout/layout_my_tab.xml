@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="TabEvent"
+            type="com.photo.imagecompressor.tools.persentation.view.MyTabEvent" />
+
+        <variable
+            name="ColorTabSelected"
+            type="Integer" />
+
+        <variable
+            name="ColorTabUnselected"
+            type="Integer" />
+
+        <variable
+            name="ColorTextSelected"
+            type="Integer" />
+
+        <variable
+            name="ColorTextUnselected"
+            type="Integer" />
+
+        <variable
+            name="TitleTab1"
+            type="String" />
+
+        <variable
+            name="TitleTab2"
+            type="String" />
+
+        <variable
+            name="TabSelected"
+            type="Integer" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_tab"
+        android:backgroundTint="@{ColorTabUnselected}">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/viewSelected"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="5"
+                android:background="@drawable/custom_tab"
+                android:backgroundTint="@{ColorTabSelected}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/tab1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.5" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tab1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:lines="1"
+                android:onClick="@{()->TabEvent.tabSelected(0)}"
+                android:paddingVertical="10dp"
+                android:text="@{TitleTab1}"
+                android:textColor="@{TabSelected==0?ColorTextSelected:ColorTextUnselected}"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tab2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:lines="1"
+                android:onClick="@{()->TabEvent.tabSelected(1)}"
+                android:paddingVertical="10dp"
+                android:text="@{TitleTab2}"
+                android:textColor="@{TabSelected==1?ColorTextSelected:ColorTextUnselected}"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

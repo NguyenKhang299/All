@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.photo.imagecompressor.tools.action.ActionImage" />
+
+        <variable
+            name="Event"
+            type="com.photo.imagecompressor.tools.presentation.main.HomeFragment" />
+    </data>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_main">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cardView4"
+            app:layout_constraintStart_toEndOf="@+id/cardView4"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_header_"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="15dp"
+                        android:text="@string/app_name"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/mMenu"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/dots"
+                            app:tint="@color/white" />
+
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/rcyIntro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:paddingHorizontal="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/circleIndicator3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                app:ci_drawable="@color/blue" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView4"
+                    style="@style/MyCardOption"
+                    app:layout_constraintEnd_toStartOf="@+id/cardView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/compressPhoto"
+                        style="@style/ChildCardOption"
+                        android:onClick="@{()->Event.clickActionCompress(ActionImage.COMPRESS_PHOTO)}">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            style="@style/ImageInCardOption"
+                            android:layout_height="0dp"
+                            android:src="@drawable/ic_compress"
+                            android:tint="@color/start_color"
+                            app:layout_constraintBottom_toTopOf="@+id/textView2"
+                            app:layout_constraintHeight_percent="0.5"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            style="@style/TextTitle"
+                            android:layout_height="0dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="@string/compress_photo"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHeight_percent="0.4"
+                            app:layout_constraintStart_toStartOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    style="@style/MyCardOption"
+                    android:paddingHorizontal="15sp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/advanceCompress"
+                        style="@style/ChildCardOption"
+                        android:onClick="@{()->Event.clickActionCompress(ActionImage.ADVANCE_COMPRESS)}">
+
+                        <ImageView
+                            style="@style/ImageInCardOption"
+                            android:layout_height="0dp"
+                            android:src="@drawable/ic_advance_compress"
+
+                            android:tint="@color/start_color"
+                            app:layout_constraintBottom_toTopOf="@+id/textView3"
+                            app:layout_constraintHeight_percent="0.5"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            style="@style/TextTitle"
+                            android:layout_height="0dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="@string/advance_compress"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHeight_percent="0.4"
+                            app:layout_constraintStart_toStartOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    style="@style/MyCardOption"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cardView"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/resizeCompress"
+                        style="@style/ChildCardOption"
+                        android:onClick="@{()->Event.clickActionCompress(ActionImage.RESIZE_COMPRESS)}">
+
+                        <ImageView
+                            style="@style/ImageInCardOption"
+                            android:layout_height="0dp"
+                            android:src="@drawable/ic_resize_compress"
+                            android:tint="@color/start_color"
+
+                            app:layout_constraintBottom_toTopOf="@+id/textView4"
+                            app:layout_constraintHeight_percent="0.5"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            style="@style/TextTitle"
+                            android:layout_height="0dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="@string/resize_compress"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHeight_percent="0.4"
+                            app:layout_constraintStart_toStartOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3"
+                    style="@style/MyCardOption"
+                    android:layout_marginTop="15dp"
+                    android:paddingHorizontal="15sp"
+                    app:layout_constraintStart_toStartOf="@+id/cardView4"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/cropCompress"
+                        style="@style/ChildCardOption"
+
+                        android:onClick="@{()->Event.clickActionCompress(ActionImage.CROP_COMPRESS)}">
+
+                        <ImageView
+                            style="@style/ImageInCardOption"
+                            android:layout_height="0dp"
+                            android:src="@drawable/ic_crop_compress"
+                            android:tint="@color/start_color"
+                            app:layout_constraintBottom_toTopOf="@+id/textView5"
+                            app:layout_constraintHeight_percent="0.5"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            style="@style/TextTitle"
+                            android:layout_height="0dp"
+                            android:autoSizeTextType="uniform"
+                            android:text="@string/crop_compress"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHeight_percent="0.4"
+                            app:layout_constraintStart_toStartOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/convertPhoto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/bg_button"
+                    android:foreground="?attr/actionBarItemBackground"
+                    android:onClick="@{()->Event.clickActionCompress(ActionImage.CONVERT_PHOTO)}"
+                    android:padding="15dp"
+                    app:layout_constraintEnd_toEndOf="@+id/cardView2"
+                    app:layout_constraintStart_toStartOf="@+id/cardView3"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:alpha="0.3"
+                        android:rotation="-15"
+                        android:src="@drawable/ic_convert"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintDimensionRatio="1:1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.2"
+                        app:tint="@color/white" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            style="@style/TextTitle"
+                            android:layout_width="wrap_content"
+                            android:lines="1"
+                            android:text="@string/convert_photo_compress"
+                            android:textColor="@color/white"
+                            android:textSize="20dp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoSizeTextType="uniform"
+                            android:maxLines="2"
+                            android:text="@string/allows_users_to_convert_images_from_one_format_to_another"
+                            android:textColor="@color/bg_main" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        style="@style/mIcon"
+                        android:src="@drawable/ic_arrow_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="@color/white" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+</layout>

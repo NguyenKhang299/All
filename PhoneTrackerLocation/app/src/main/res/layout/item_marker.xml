@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.graphics.Color" />
+
+        <variable
+            name="StatusUser"
+            type="Boolean" />
+
+
+        <variable
+            name="MapInfo"
+            type="com.knd.duantotnghiep.phonetrackerlocation.models.MapInfo" />
+
+        <variable
+            name="Battery"
+            type="com.knd.duantotnghiep.phonetrackerlocation.models.BatteryInfo" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:visibility="@{StatusUser ? View.VISIBLE :View.GONE}"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/animation_marker"
+            app:lottie_repeatCount="10000000"
+            app:lottie_repeatMode="restart" />
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/cardView"
+            android:layout_width="52dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:riv_corner_radius="@dimen/_8sdp" />
+
+        <TextView
+            android:id="@+id/pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_gradient"
+            android:backgroundTint="@{StatusUser ? Color.MAGENTA : Color.WHITE}"
+            android:drawableEnd="@{Battery.charging ? @drawable/baseline_flash_on_24 : null}"
+            android:gravity="center"
+            android:maxWidth="@dimen/_40sdp"
+            android:minWidth="@dimen/_20sdp"
+            android:padding="@dimen/_3sdp"
+            android:text="@{String.valueOf(Battery.pin) + ` %`}"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_6sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/bg_btn_gradient"
+            android:gravity="center"
+            android:minWidth="30sp"
+            android:padding="3dp"
+            android:text="@{String.valueOf(MapInfo.speed) + `\nkm/h`}"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_6sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

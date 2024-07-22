@@ -1,0 +1,12 @@
+<resources>
+
+    <declare-styleable name="MyTab">
+        <attr name="color_tab_selected" format="color" />
+        <attr name="color_tab_unselected" format="color" />
+        <attr name="color_text_selected" format="color" />
+        <attr name="color_text_unselected" format="color" />
+        <attr name="title_tab_1" format="string" />
+        <attr name="title_tab_2" format="string" />
+
+    </declare-styleable>
+</resources>

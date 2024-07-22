@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">PathLink Express</string>
+    <string name="fcmServerKey">AAAAbYdXSiU:APA91bFBf8no3poRHYIfiDQ5HXs6Jkmkl11B7LYqg0p81pqDFf36jqAj880itRqzFFfGgFbrBkIrYppdF7rf1ax8x4-utvnQmKdRbW1q4EslwJhvr12qj_SUMDqwXcoeu-pH9xX3kqV3</string>
+    <string name="app_id_agora">"cb6bd83ba99449bea239ff166b77077c"</string>
+    <string name="text_btn_intro">Get Started</string>
+    <string name="mess_intro_1">Stay linked wherever you are. Discover PathLink Express now for effortless tracking and sharing!</string>
+    <string name="mess_intro_2">Add friends, chat instantly, and stay close.</string>
+    <string name="mess_intro_3">Sleek Interface, Effortless Experience: Our app boasts a sleek interface for effortless navigation.</string>
+    <string name="cancel_login_message">Login has been canceled.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_regis">Welcome Back</string>
+    <string name="mess_regis">Enter your details below.</string>
+    <string name="mess_login">Free forever.No credit card needed.</string>
+    <string name="title_login">Get started free</string>
+    <string name="don_t__account">Don\'t have an account?</string>
+    <string name="already_account">Already have an account ?</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="default_client_id">646020684867-btaouisa784rfne48of8jp10g2n6gd94.apps.googleusercontent.com</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="phone_number_blank_error">Please ensure the phone number field is not left blank.</string>
+    <string name="otp_blank_error">Please ensure the otp field is not left blank.</string>
+    <string name="password_blank_error">Please make sure to fill in the password field.</string>
+    <string name="phone_number_format_error">Phone number is not in the correct format.</string>
+    <string name="or_sign_up_with">or sign up with</string>
+    <string name="start">Start</string>
+    <string name="mess_create_account">Create an account to connect and share with friends and family</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="prompt_telephone_number">What\'s your telephone number?</string>
+    <string name="otp_authentication">OTP authentication</string>
+    <string name="otp_code_sent_via_phone_number">OTP code is sent via phone number.</string>
+    <string name="resend_code_after_60_seconds">Resend the code after 60 seconds.</string>
+    <string name="complete_registration_with_otp">Please enter the OTP code sent to your phone number... to complete the registration.</string>
+    <string name="password_requirements">Password must contain at least 6 letters, numbers, and special characters.</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="error_name_blank">Please do not leave your full name blank</string>
+    <string name="what_is_your_gender">What is your gender?</string>
+    <string name="you_can_later_change_who_can_see_your_gender_on_your_profile">You can later change who can see your gender on your profile</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="enter_your_name_in_real_life">Enter your name in real life</string>
+    <string name="pls_info">Please enter complete information</string>
+    <string name="noti_permission">"To enhance your experience, please grant the following permissions:\n\n" +
+        "1. Location Access: We require access to your device's location to provide location-based services and features.\n\n" +
+        "2. Location Sharing: You can choose to share your location with others using our app. This helps you stay connected with friends and family.\n\n" +
+        "Please follow the steps below to grant these permissions:\n\n" +
+        "1. Open the Settings app on your device.\n\n" +
+        "2. Scroll down and tap on 'Privacy.'\n\n" +
+        "3. Tap on 'Location Services.'\n\n" +
+        "4. Enable 'Location Services' by toggling the switch.\n\n" +
+        "5. Scroll down and find our app in the list of installed apps.\n\n" +
+        "6. Tap on our app's name.\n\n" +
+        "7. Select 'While Using the App' to allow location access while the app is in use.\n\n" +
+        "8. Go back to our app and enjoy the enhanced features.\n\n" +
+        "Thank you for choosing our app! If you have any questions or need assistance, please don't hesitate to contact our support team."
+ </string>
+    <string name="if_you_leave_page_any_change_you_have_made_will_be_lost">if you leave page,any change you have made will be lost</string>
+    <string name="unsaved_change">Unsaved change</string>
+    <string name="discard_changes">Discard Changes</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="live_at">Live at :</string>
+    <string name="search">Search</string>
+</resources>
